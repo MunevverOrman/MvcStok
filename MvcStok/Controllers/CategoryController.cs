@@ -6,7 +6,7 @@ namespace MvcStok.Controllers
 {
     public class CategoryController : Controller
     {
-        // GET: Category
+        
         MvcDbStokEntities db = new MvcDbStokEntities();
        
         public ActionResult Index()
@@ -14,6 +14,7 @@ namespace MvcStok.Controllers
             var degerler= db.TBLKATEGORILER.ToList();
             return View(degerler);
         }
+
 
         [HttpGet]
         public ActionResult CreateCategory()
@@ -56,3 +57,6 @@ namespace MvcStok.Controllers
         }
     }
 }
+
+
+

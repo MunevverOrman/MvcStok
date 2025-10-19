@@ -1,12 +1,14 @@
+
 ﻿using System.Collections.Generic;
 using System.Linq;
+﻿using System.Linq;
 using System.Web.Mvc;
 using MvcStok.Models.Entity;
 namespace MvcStok.Controllers
 {
     public class ProductController : Controller
     {
-        // GET: Product
+       
         MvcDbStokEntities db = new MvcDbStokEntities();
        
         public ActionResult Index()
@@ -14,6 +16,7 @@ namespace MvcStok.Controllers
             var degerler = db.TBLURUNLER.ToList();
             return View(degerler);
         }
+
         [HttpGet]
         public ActionResult CreateProduct()
         { 
@@ -70,8 +73,7 @@ namespace MvcStok.Controllers
             return RedirectToAction("Index");
 
 
-
-
         }
+
     }
 }

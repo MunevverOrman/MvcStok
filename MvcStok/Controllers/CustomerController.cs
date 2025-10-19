@@ -6,7 +6,7 @@ namespace MvcStok.Controllers
 {
     public class CustomerController : Controller
     {
-        // GET: Customer
+     
         MvcDbStokEntities db=new MvcDbStokEntities();
         
         public ActionResult Index()
@@ -14,6 +14,7 @@ namespace MvcStok.Controllers
             var degerler =db.TBLMUSTERILER.ToList();
             return View(degerler);
         }
+
         [HttpGet]
         public ActionResult CreateCustomer()
         {
@@ -54,3 +55,6 @@ namespace MvcStok.Controllers
         }
     }
 }  
+
+    
+
