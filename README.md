@@ -16,6 +16,7 @@ Kullanıcıların stok ve satış süreçlerini tek platform üzerinden yönetme
 
 
 
+
 <img width="1910" height="908" alt="1" src="https://github.com/user-attachments/assets/cd7f13c6-e292-47b1-91c6-531aebbe380d" />
 
 
