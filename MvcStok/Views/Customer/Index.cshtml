@@ -21,6 +21,7 @@
 
                 <td> <a href="/Customer/DeleteCustomer/@musterı.MUSTERIID" class="btn btn-danger">SİL</a></td>
                 <td> <a href="/Customer/GetCustomer/@musterı.MUSTERIID" class="btn btn-success">GÜNCELLE</a></td>
+                <td>@Html.ActionLink("Sil butonu", "DeleteCustomer", new { id=musterı.MUSTERIID},new {@class="btn btn-warning",onclick="return confirm('Gerçekten silmek istiyor musunuz?')" })</td>
             </tr>
         }
     </tbody>
