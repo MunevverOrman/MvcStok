@@ -1,4 +1,5 @@
 🧾 MvcStok 
+
 MvcStok, küçük ve orta ölçekli işletmelerin ürün, müşteri ve satış takibini kolaylaştıran bir stok yönetim sistemidir. ASP.NET MVC ve Entity Framework ile geliştirilmiştir.  
 
 📌 Proje Amacı  
