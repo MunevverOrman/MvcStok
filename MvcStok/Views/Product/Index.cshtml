@@ -5,17 +5,19 @@
     Layout = "~/Views/Shared/_MainLayout.cshtml";
 }
 
-<table class="table table-bordered">
-    <tr>
-        <th>Ürün Id</th>
-        <th>Ürün Ad</th>
-        <th>Markası</th>
-        <th>Kategori</th>
-        <th>Fiyat</th>
-        <th>Stok</th>
-        <th>SİL</th>
-        <th>GÜNCELLE</th>
-    </tr>
+<table id="tbl1" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ürün Id</th>
+            <th>Ürün Ad</th>
+            <th>Markası</th>
+            <th>Kategori</th>
+            <th>Fiyat</th>
+            <th>Stok</th>
+            <th>SİL</th>
+            <th>GÜNCELLE</th>
+        </tr>
+    </thead>
     <tbody>
         @foreach (var urun in Model)
         {
@@ -32,11 +34,7 @@
                 <td><a href="/Product/GetProduct/@urun.URUNID" class="btn btn-success">GÜNCELLE</a></td>
 
 
-                <td>@urun.URUNKATEGORI</td>
-                <td>@urun.FIYAT</td>
-                <td>@urun.STOK</td>
-                <td><a href="/Product/SIL/@urun.URUNID" class="btn btn-danger">SİL</a></td>
-                <td><a href="/Product/GUNCELLE/@urun.URUNID" class="btn btn-success">GÜNCELLE</a></td>
+
 
 
 
@@ -46,3 +44,15 @@
     </tbody>
 </table>
 <a href="/Product/CreateProduct" class="btn btn-primary">YENİ ÜRÜN EKLE</a>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+
+<script>
+    $('#tbl1').DataTable();
+</script>
