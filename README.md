@@ -6,11 +6,11 @@ MvcStok, küçük ve orta ölçekli işletmelerin ürün, müşteri ve satış t
 Kullanıcıların stok ve satış süreçlerini tek platform üzerinden yönetmesini sağlar.  
 
 ✨ Öne Çıkan Özellikler
-- 🛒 Ürün & Kategori Yönetimi:** Ekleme, düzenleme ve listeleme  
-- 👥 Müşteri Yönetimi:** Bilgi takibi ve güncelleme  
-- 💰 Satış İşlemleri:** Kayıt ve güncelleme  
-- 📊 Stok Kontrolü:** Miktar takibi ve uyarılar  
-- 🔍 Arama & Filtreleme:** Ürünleri kolayca bulma  
+- 🛒 Ürün & Kategori Yönetimi:Ekleme, düzenleme ve listeleme  
+- 👥 Müşteri Yönetimi: Bilgi takibi ve güncelleme  
+- 💰 Satış İşlemleri: Kayıt ve güncelleme  
+- 📊 Stok Kontrolü: Miktar takibi ve uyarılar  
+- 🔍 Arama & Filtreleme: Ürünleri kolayca bulma  
 
 📈 Amaç: İşletmelerin stok ve satış süreçlerini daha düzenli, hızlı ve verimli yönetmesini sağlamak.
 
